@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "371031097795",
+    "project_id": "signup-app-a08a1",
+    "storage_bucket": "signup-app-a08a1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:371031097795:android:30fa80954924a1f8637d76",
+        "android_client_info": {
+          "package_name": "com.example.signupapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "371031097795-hi943miq7htlhqofl1tdcuaspnsm592i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAzZluI2fBx8hHHCPGVDQdgRiF_ojtIPCY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "371031097795-hi943miq7htlhqofl1tdcuaspnsm592i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
