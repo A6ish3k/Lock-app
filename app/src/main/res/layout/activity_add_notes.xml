@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddNotesActivity"
+    android:paddingTop="20dp">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/titleTop"
+        android:layout_marginTop="20dp">
+
+
+       <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/noteTitle"
+            android:text="Add Notes"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="30dp"/>
+       <ImageButton
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:id="@+id/saveNotes"
+            android:layout_alignParentEnd="true"
+            android:src="@drawable/save"
+            android:background="?attr/selectableItemBackgroundBorderless"/>
+
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/titleTop"
+        android:layout_margin="30dp"
+        android:background="#D3D3D3"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textNote"
+            android:layout_marginVertical="10dp"
+            android:hint="Add Title"
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/noteDetails"
+            android:layout_marginVertical="10dp"
+            android:gravity="top"
+            android:hint="Add Description"
+            android:minLines="15"
+            android:textSize="18dp"
+            android:textStyle="bold"/>
+    </LinearLayout>
+
+</RelativeLayout>
