@@ -42,6 +42,6 @@ public class FragmentShift extends AppCompatActivity {
             }
         });
 
-        nav.setSelectedItemId(R.id.profile);
+        nav.setSelectedItemId(R.id.notes);
     }
 }
